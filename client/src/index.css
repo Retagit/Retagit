@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputStyle{
+    @apply w-[90%] h-10 lg:h-12 lg:w-[410px] bg-[#EFFFFD] border-2 border-opacity-70 border-[#187498] rounded-lg duration-200 font-medium px-4 focus:outline-none focus:border-slate-800 
+}
+.inputStyle2{
+    @apply w-[44%] h-10 lg:h-12 lg:w-[201px] bg-[#EFFFFD] border-2 border-opacity-70 border-[#187498] rounded-lg duration-200 font-medium px-4 focus:outline-none focus:border-slate-800 
+}

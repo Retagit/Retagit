@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&display=swap');
+.ajs-message{
+    border-radius: 0.5rem !important;
+    font-size: 1.2rem !important;
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    width: max-content !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    text-align: center !important;
+}
+
+.ajs-success{
+    background: rgb(68,242,169);
+    background: linear-gradient(180deg, rgba(68,242,169,1) 0%, rgba(49,198,136,1) 72%) !important;
+    
+}
+.ajs-error{
+    background: rgb(242,114,68);
+background: linear-gradient(180deg, rgba(242,114,68,1) 0%, rgba(238,56,32,1) 100%) !important;
+}
+
+
+.notSame{
+    border: 2px solid red;
+}
+.correctSame{
+    opacity: 0;
+}
+.notSameError{
+    opacity: 100 !important;
+}
